@@ -1,0 +1,1 @@
+# Adaptive_layout_diplom_Onufriev
