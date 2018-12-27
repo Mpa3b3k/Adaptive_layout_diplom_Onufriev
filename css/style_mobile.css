@@ -52,18 +52,69 @@
 		width: 100%;
 	}
 
+	.top_athlets {
+		background-color: #ffffff;
+		height: 306px;
+	}
+
 	.text_athlets {
 		font-size: 36px;
 		color: #e7e7e7;
 	}
 
 	.footballer {
+		width: 100%;
+		height: 300px;
+		background-repeat: no-repeat;
+		z-index: 10;
 		background-image: url(../images/footballer_192.png);
+	}
+
+	.connection {
+		height: 214px;
+		width: 100%;
+		background-color: #fafafa;
+	}
+
+	.collaboration {
+		height: 260px;
+		width: 100%;
+		background-color: #f5f4f9;
+	}
+
+	.growth {
+		height: 230px;
+		width: 100%;
+		background-color: #5e42b0;
 	}
 
 	.players {
 		height: 936px;
 		width: 100%;
+	}
+
+	.top_players {
+		height: 304px;
+		width: 100%;
+		background-color: #ffffff;
+	}
+
+	.p_connection {
+		height: 250px;
+		width: 100%;
+		background-color: #fafafa;
+	}
+
+	.p_collaboration {
+		height: 192px;
+		width: 100%;
+		background-color: #f5f4f9;	
+	}
+
+	.p_growth {
+		height: 190px;
+		width: 100%;
+		background-color: #090c35;
 	}
 
 	.be_active {
