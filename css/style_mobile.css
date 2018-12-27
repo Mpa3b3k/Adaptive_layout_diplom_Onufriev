@@ -2,6 +2,7 @@
 	body{
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 
 	.top {
@@ -10,7 +11,9 @@
 		background-image: url(../images/football_767.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
-		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.apple_store, .google_play {
@@ -50,23 +53,33 @@
 	.athlets {
 		height: 1010px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.top_athlets {
 		background-color: #ffffff;
 		height: 306px;
+		width: 100%;
 	}
 
-	.text_athlets {
+	.big_title {
 		font-size: 36px;
 		color: #e7e7e7;
+		align-items: flex-start;
+	}
+
+	.small_title {
+		font-size: 18px;
+		color: #c1c1c1;
 	}
 
 	.footballer {
 		width: 100%;
 		height: 300px;
+		align-items: center;
 		background-repeat: no-repeat;
-		z-index: 10;
 		background-image: url(../images/footballer_192.png);
 	}
 
@@ -91,12 +104,17 @@
 	.players {
 		height: 936px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.top_players {
 		height: 304px;
 		width: 100%;
 		background-color: #ffffff;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.p_connection {
@@ -120,20 +138,69 @@
 	.be_active {
 		height: 564px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.top_img_be_active {
+		height: 352px;
+		width: 100%;
+		background-size: cover;
+		background-image: url(../images/be-active_640.jpg);
+	}
+
+	.be_active_content {
+		height: 212px;
+		width: 100%;
 	}
 
 	.find_contact {
 		height: 548px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.top_img_find_contact {
+		height: 352px;
+		width: 100%;
+		background-size: cover;
+		background-image: url(../images/find-contact_640.jpg);
+	}
+
+	.find_contact_content {
+		height: 196px;
 		width: 100%;
 	}
 
 	.work_it {
 		height: 576px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.top_img_work_it {
+		height: 352px;
+		width: 100%;
+		background-size: cover;
+		background-image: url(../images/work-it_640.jpg);
+	}
+
+	.work_it_content {
+		height: 224px;
+		width: 100%;
 	}
 
 	.footer {
 		height: 568px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url(../images/game_767.jpg);
 	}
 }
