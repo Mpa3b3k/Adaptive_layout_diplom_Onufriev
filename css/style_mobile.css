@@ -28,7 +28,7 @@
   	bottom: 0;
   	left: 0;
   	right: 0;
-  	background-color: #5e42b0;
+  	background-color: #202346;
   	opacity: 0.8;
 	}
 
@@ -47,14 +47,17 @@
 	}
 
 	.BE_RECRUITED {
-		font-size: 20px;
+		font-size: 28px;
 		color: #ffffff;
+		font-family: OpenSans-Bold;
 	}
 
 	.PLAY_COLLEGE_SPORTS {
-		font-size: 20px;
+		font-size: 28px;
 		color: #ffffff;
 		width: 214px;
+		align-self: flex-end;
+		font-family: OpenSans bold;
 	}
 
 	.apple_store, .google_play {
@@ -102,7 +105,7 @@
 
 	.bot_text {
 		font-size: 8px;
-		font-family: OpenSans bold;
+		font-family: OpenSans-Bold;
 	}
 
 	.athlets {
