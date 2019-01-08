@@ -120,21 +120,47 @@
 		background-color: #ffffff;
 		height: 306px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.big_title {
 		font-size: 36px;
 		color: #e7e7e7;
-		align-items: flex-start;
+		align-self: flex-start;
+		margin-top: 20px;
+		margin-bottom: 22px;
+		margin-left: 20px;
 	}
 
 	.small_title {
 		font-size: 20px;
 		color: #c1c1c1;
+		margin-left: 10px;
+	}
+
+	.small_title_b {
+		font-size: 20px;
+		color: #c1c1c1;
+		align-self: flex-start;
+		margin-left: 20px;
+	}
+
+	.text_black {
+		font-size: 18px;
+		width: 280px;
+		text-align: left;
+	}
+
+	.text_white {
+		font-size: 18px;
+		width: 280px;
+		color: #dedbed;
 	}
 
 	.footballer {
-		width: 100%;
+		width: 180px;
 		height: 300px;
 		align-items: center;
 		background-repeat: no-repeat;
@@ -145,18 +171,66 @@
 		height: 214px;
 		width: 100%;
 		background-color: #fafafa;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.betw_info {
+		display: flex;
+		width: 280px;
+		margin-bottom: 28px;
+	}
+
+	.number {
+		max-width: 16px;
+	}
+
+	.n_text {
+		font-size: 12px;
+		font-family: OpenSans;
+	}
+
+	.n_text_ph {
+		font-size: 12px;
+		font-family: OpenSans;
+		color: #5e42b0;
+	}
+
+	.n_underline {
+		background-color: #5e42b0;
+		width: 100%;
+		height: 4px;
+		border-radius: 10px;
+
+	}
+
+	.n_underline_w {
+		background-color: #ffffff;
+		width: 100%;
+		height: 4px;
+		border-radius: 10px;
 	}
 
 	.collaboration {
 		height: 260px;
 		width: 100%;
 		background-color: #f5f4f9;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.growth {
 		height: 230px;
 		width: 100%;
 		background-color: #5e42b0;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.players {
@@ -173,24 +247,44 @@
 		background-color: #ffffff;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+	}
+
+	.basketballer {
+		background-image: url(../images/basketballer_302.png);
+		width: 100%;
+		height: 300px;
+		background-repeat: no-repeat;
 	}
 
 	.p_connection {
 		height: 250px;
 		width: 100%;
 		background-color: #fafafa;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.p_collaboration {
 		height: 192px;
 		width: 100%;
 		background-color: #f5f4f9;	
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.p_growth {
 		height: 190px;
 		width: 100%;
 		background-color: #090c35;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.be_active {
@@ -211,6 +305,10 @@
 	.be_active_content {
 		height: 212px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.find_contact {
@@ -231,6 +329,10 @@
 	.find_contact_content {
 		height: 196px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.work_it {
@@ -251,6 +353,10 @@
 	.work_it_content {
 		height: 224px;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.footer {
