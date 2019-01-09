@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (max-width: 320px) {
 	body{
 		display: flex;
 		flex-direction: column;
@@ -9,7 +9,7 @@
 
 	.top {
 		width: 100%;
-		height: 178.125vw;
+		height: 570px;
 		background-image: url(../images/football_767.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -33,7 +33,8 @@
 	}
 
 	.surface_logo_text{
-		width: 40.625vw;
+		width: 130px;
+		height: 36px;
 		z-index: 2;
 	}
 	
@@ -42,33 +43,33 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		width: 87.5vw;
+		width: 280px;
 	}
 
 	.BE_RECRUITED {
-		font-size: 8.75vw;
+		font-size: 1.75rem;
 		color: #ffffff;
 		font-family: OpenSans-Bold;
 	}
 
 	.PLAY_COLLEGE_SPORTS {
-		font-size: 8.75vw;
+		font-size: 1.75rem;
 		color: #ffffff;
-		width: 66.875vw;
+		width: 214px;
 		align-self: flex-end;
 		font-family: OpenSans bold;
 	}
 
 	.apple_store, .google_play {
-		height: 11.25vw;
-		width: 87.5vw;
+		height: 36px;
+		width: 280px;
 		background-color: #5e42b0;
-		border-radius: 31.25vw;
+		border-radius: 100px;
 		color: white;
 		display: flex;
 		align-items: center;
 		z-index: 2;
-		margin: 2.1875vw;
+		margin: 7px;
 	}
 
 	path{
@@ -77,8 +78,8 @@
 
 	.apple_svg, .google_play_svg {
 		/*width: 10px;*/
-		height: 7.5vw;
-		margin-right: 1.25vw;
+		height: 24px;
+		margin-right: 4px;
 	}
 
 	.bottom_links {
@@ -93,22 +94,22 @@
 		display: flex;
 		/*flex-direction: row;*/
 		align-items: center;
-		margin: calc(50% - 17.5vw);
+		margin: calc(50% - 56px);
 		z-index: 2;
 	}
 
 	.top_text {
-		font-size: 2.5vw;
+		font-size: 0.5rem;
 		font-family: OpenSans;
 	}
 
 	.bot_text {
-		font-size: 2.5vw;
+		font-size:0.5rem;
 		font-family: OpenSans-Bold;
 	}
 
 	.athlets {
-		height: 315.625vw;
+		height: 1010px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -117,7 +118,7 @@
 
 	.top_athlets {
 		background-color: #fafafa;
-		height: 113.75vw;
+		height: 364px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -132,61 +133,56 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 18.125vw;
+		bottom: 58px;
 		left: 0;
 		background: #ffffff;
 	}
 
 	.big_title {
-		font-size: 11.25vw;
+		font-size: 2.25rem;
 		color: #e7e7e7;
 		align-self: flex-start;
-		margin-top: 6.25vw;
-		margin-bottom: 6.25vw;
-		margin-left: 6.25vw;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
 	}
 
 	.small_title {
-		font-size: 6.25vw;
+		font-size: 1.25rem;
 		color: #c1c1c1;
-		margin-left: 3.125vw;
+		margin-left: 10px;
 	}
 
 	.small_title_b {
-		font-size: 6.25vw;
+		font-size: 1.25rem;
 		color: #c1c1c1;
 		align-self: flex-start;
-		margin-left: 6.25vw;
-		margin-bottom: 7.5vw;
+		margin-left: 20px;
+		margin-bottom: 24px;
 	}
 
 	.text_black {
-		font-size: 5.625vw;
-		width: 87.5vw;
+		font-size: 1.125rem;
+		width: 280px;
 		text-align: left;
 	}
 
 	.text_white {
-		font-size: 5.625vw;
-		width: 87.5vw;
+		font-size: 1.125rem;
+		width: 280px;
 		color: #dedbed;
 	}
 
 	.footballer {
-		width: 56.25vw;
+		width: 180px;
 		height: 100%;
 		align-items: center;
 		background-repeat: no-repeat;
-		background-size: cover;
 		background-image: url(../images/footballer_192.png);
 	}
 
-	.footballer_768 {
-		display: none;
-	}
-
 	.connection {
-		height: 48.125vw;
+		height: 154px;
 		width: 100%;
 		background-color: #fafafa;
 		display: flex;
@@ -197,27 +193,27 @@
 
 	.betw_info {
 		display: flex;
-		width: 87.5vw;
-		margin-bottom: 8.125vw;
+		width: 280px;
+		margin-bottom: 26px;
 	}
 
 	.number {
-		max-width: 5vw;
+		max-width: 16px;
 	}
 
 	.n_text {
-		font-size: 3.75vw;
+		font-size: 0.75rem;
 		font-family: OpenSans;
 	}
 
 	.n_text_ph {
-		font-size: 3.75vw;
+		font-size: 0.75rem;
 		font-family: OpenSans;
 		color: #5e42b0;
 	}
 
 	.n_text_w {
-		font-size: 3.75vw;
+		font-size: 0.75rem;
 		font-family: OpenSans;
 		color: #f5f6f7;
 	}
@@ -225,27 +221,27 @@
 	.n_underline {
 		background-color: #5e42b0;
 		width: 100%;
-		height: 1.25vw;
-		border-radius: 3.125vw;
+		height: 4px;
+		border-radius: 10px;
 
 	}
 
 	.n_underline_w {
 		background-color: #ffffff;
 		width: 100%;
-		height: 1.25vw;
-		border-radius: 3.125vw;
+		height: 4px;
+		border-radius: 10px;
 	}
 
 	.n_underline_ph {
 		background-color: #8f7bc8;
 		width: 100%;
-		height: 1.25vw;
-		border-radius: 3.125vw;
+		height: 4px;
+		border-radius: 10px;
 	}
 
 	.collaboration {
-		height: 81.25vw;
+		height: 260px;
 		width: 100%;
 		background-color: #f5f4f9;
 		display: flex;
@@ -255,7 +251,7 @@
 	}
 
 	.growth {
-		height: 71.875vw;
+		height: 230px;
 		width: 100%;
 		background-color: #5e42b0;
 		display: flex;
@@ -265,7 +261,7 @@
 	}
 
 	.players {
-		height: 292.5vw;
+		height: 936px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -273,7 +269,7 @@
 	}
 
 	.top_players {
-		height: 103.125vw;
+		height: 330px;
 		width: 100%;
 		background-color: #fafafa;
 		display: flex;
@@ -289,21 +285,20 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 8.125vw;
+		bottom: 26px;
 		left: 0;
 		background: #ffffff;
 	}
 
 	.basketballer {
 		background-image: url(../images/basketballer_302.png);
-		width: 94.375vw;
+		width: 100%;
 		height: 100%;
 		background-repeat: no-repeat;
-		background-size: cover;
 	}
 
 	.p_connection {
-		height: 70vw;
+		height: 224px;
 		width: 100%;
 		background-color: #fafafa;
 		display: flex;
@@ -313,7 +308,7 @@
 	}
 
 	.p_collaboration {
-		height: 60vw;
+		height: 192px;
 		width: 100%;
 		background-color: #f5f4f9;	
 		display: flex;
@@ -323,7 +318,7 @@
 	}
 
 	.p_growth {
-		height: 59.375vw;
+		height: 190px;
 		width: 100%;
 		background-color: #090c35;
 		display: flex;
@@ -333,7 +328,7 @@
 	}
 
 	.be_active {
-		height: 176.25vw;
+		height: 564px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -341,7 +336,7 @@
 	}
 
 	.top_img_be_active {
-		height: 110vw;
+		height: 352px;
 		width: 100%;
 		background-size: cover;
 		position: relative;
@@ -354,7 +349,7 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 3.75vw;
+		bottom: 12px;
 		left: 0;
 		background: #ffffff;
 		background-repeat: no-repeat;
@@ -363,12 +358,12 @@
 	}
 
 	.block_number {
-		height: 21.875vw;
-		width: 21.875vw;
+		height: 70px;
+		width: 70px;
 		background-color: #5e42b0;
 		margin-bottom: 0px;
-		margin-left: 6.25vw;
-		margin-top: 88.125vw;
+		margin-left: 20px;
+		margin-top: 282px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -376,7 +371,7 @@
 	}
 
 	.be_active_content {
-		height: 62.5vw;
+		height: 200px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -385,7 +380,7 @@
 	}
 
 	.find_contact {
-		height: 171.25vw;
+		height: 548px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -393,7 +388,7 @@
 	}
 
 	.top_img_find_contact {
-		height: 110vw;
+		height: 352px;
 		width: 100%;
 		background-size: cover;
 		position: relative;
@@ -405,7 +400,7 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 3.75vw;
+		bottom: 12px;
 		left: 0;
 		background: #ffffff;
 		background-repeat: no-repeat;
@@ -414,7 +409,7 @@
 	}
 
 	.find_contact_content {
-		height: 57.5vw;
+		height: 184px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -423,7 +418,7 @@
 	}
 
 	.work_it {
-		height: 180vw;
+		height: 576px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -431,7 +426,7 @@
 	}
 
 	.top_img_work_it {
-		height: 110vw;
+		height: 352px;
 		width: 100%;
 		background-size: cover;
 		position: relative;
@@ -443,7 +438,7 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 3.75vw;
+		bottom: 12px;
 		left: 0;
 		background: #ffffff;
 		background-repeat: no-repeat;
@@ -452,7 +447,7 @@
 	}
 
 	.work_it_content {
-		height: 66.25vw;
+		height: 212px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -461,7 +456,7 @@
 	}
 
 	footer {
-		height: 177.5vw;
+		height: 568px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -486,10 +481,10 @@
 	}
 
 	.emblem {
-		width: 22.5vw;
-		height: 23.125vw;
+		width: 72px;
+		height: 74px;
 		z-index: 9;
-		border-radius: 6.25vw;
+		border-radius: 20px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -506,16 +501,16 @@
 	}
 
 	.footer_top_text {
-		font-size: 7.5vw;
+		font-size: 1.5rem;
 		color: #ffffff;
 	}
 
 	.footer_bot_text {
-		font-size: 3.125vw;
+		font-size: 0.625rem;
 		color: #9084b5;
 	}
 
 	.svg_emblem {
-		width: 18.125vw;
+		width: 58px;
 	}
 }
