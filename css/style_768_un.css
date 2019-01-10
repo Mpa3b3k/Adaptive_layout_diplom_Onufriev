@@ -1,4 +1,5 @@
 @media (min-width: 641px) and (max-width: 960px) {
+	
 	body{
 		display: flex;
 		flex-direction: column;
@@ -138,37 +139,46 @@
 	}
 
 	.big_title {
-		font-size: 2.25rem;
+		font-size: 60px;
 		color: #e7e7e7;
 		align-self: flex-start;
-		margin-top: 20px;
+		width: 100%;
+		margin-top: 84px;
 		margin-bottom: 20px;
 		margin-left: 20px;
 	}
 
 	.small_title {
-		font-size: 1.25rem;
+		font-size: 24px;
 		color: #c1c1c1;
 		margin-left: 10px;
 	}
 
 	.small_title_b {
-		font-size: 1.25rem;
+		font-size: 60px;
 		color: #c1c1c1;
 		align-self: flex-start;
-		margin-left: 20px;
-		margin-bottom: 24px;
+		margin-bottom: 42px;
+		margin-left: 30px;
 	}
 
 	.text_black {
-		font-size: 1.125rem;
+		font-size: 12px;
 		width: 280px;
 		text-align: left;
 	}
 
+	.text_black_b {
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: 42px;
+		margin-left: 30px;
+		margin-right: 84px;
+	}
+
 	.text_white {
-		font-size: 1.125rem;
-		width: 280px;
+		font-size: 12px;
+		width: 432px;
 		color: #dedbed;
 	}
 
@@ -197,50 +207,55 @@
 	}
 
 	.number {
-		max-width: 16px;
+		max-width: 24px;
+		height: 30px;
 	}
 
 	.n_text {
-		font-size: 0.75rem;
+		font-size: 12px;
 		font-family: OpenSans;
 	}
 
 	.n_text_ph {
-		font-size: 0.75rem;
+		font-size: 12px;
 		font-family: OpenSans;
 		color: #5e42b0;
-	}
-
-	.n_text_w {
-		font-size: 0.75rem;
-		font-family: OpenSans;
-		color: #f5f6f7;
 	}
 
 	.n_underline {
 		background-color: #5e42b0;
 		width: 100%;
-		height: 4px;
+		height: 6px;
 		border-radius: 10px;
 
 	}
 
 	.n_underline_w {
 		background-color: #ffffff;
-		width: 100%;
-		height: 4px;
-		border-radius: 10px;
+		height: 6px;
+		border-radius: 10px; 
+	}
+	
+	/*Блок номера из квадрата be_active, find_contact и work_it*/
+	
+	.number_b {
+		max-width: 30px;
+	}
+
+	.n_text_w {
+		font-size: 18px;
+		font-family: OpenSans;
+		color: #f5f6f7;
 	}
 
 	.n_underline_ph {
 		background-color: #8f7bc8;
-		width: 100%;
-		height: 4px;
+		height: 6px;
 		border-radius: 10px;
 	}
 
 	.collaboration {
-		height: 260px;
+		height: 234px;
 		width: 100%;
 		background-color: #f5f4f9;
 		display: flex;
@@ -250,7 +265,7 @@
 	}
 
 	.growth {
-		height: 230px;
+		height: 180px;
 		width: 100%;
 		background-color: #5e42b0;
 		display: flex;
@@ -260,7 +275,6 @@
 	}
 
 	.players {
-		height: 738px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -307,7 +321,7 @@
 	}
 
 	.p_collaboration {
-		height: 192px;
+		height: 180px;
 		width: 100%;
 		background-color: #f5f4f9;	
 		display: flex;
@@ -317,7 +331,7 @@
 	}
 
 	.p_growth {
-		height: 190px;
+		height: 180px;
 		width: 100%;
 		background-color: #090c35;
 		display: flex;
@@ -327,7 +341,6 @@
 	}
 
 	.be_active {
-		height: 924px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -335,7 +348,7 @@
 	}
 
 	.top_img_be_active {
-		height: 352px;
+		height: 582px;
 		width: 100%;
 		background-size: cover;
 		position: relative;
@@ -348,21 +361,21 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 12px;
+		bottom: 36px;
 		left: 0;
 		background: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url(../images/be-active_640.jpg);
+		background-image: url(../images/be-active.jpg);
 	}
 
 	.block_number {
-		height: 70px;
-		width: 70px;
+		height: 114px;
+		width: 114px;
 		background-color: #5e42b0;
 		margin-bottom: 0px;
-		margin-left: 20px;
-		margin-top: 282px;
+		margin-left: 30px;
+		margin-top: 468px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -374,12 +387,11 @@
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
 	}
 
 	.find_contact {
-		height: 918px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -387,7 +399,7 @@
 	}
 
 	.top_img_find_contact {
-		height: 352px;
+		height: 582px;
 		width: 100%;
 		background-size: cover;
 		position: relative;
@@ -399,12 +411,12 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 12px;
+		bottom: 36px;
 		left: 0;
 		background: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url(../images/find-contact_640.jpg);
+		background-image: url(../images/find-contact.jpg);
 	}
 
 	.find_contact_content {
@@ -417,7 +429,6 @@
 	}
 
 	.work_it {
-		height: 954px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -425,7 +436,7 @@
 	}
 
 	.top_img_work_it {
-		height: 352px;
+		height: 582px;
 		width: 100%;
 		background-size: cover;
 		position: relative;
@@ -437,12 +448,12 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		bottom: 12px;
+		bottom: 36px;
 		left: 0;
 		background: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url(../images/work-it_640.jpg);
+		background-image: url(../images/work-it.jpg);
 	}
 
 	.work_it_content {

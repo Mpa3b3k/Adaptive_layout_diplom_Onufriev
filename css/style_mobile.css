@@ -205,6 +205,10 @@
 		max-width: 5vw;
 	}
 
+	.number_b {
+		max-width: 5vw;
+	}
+
 	.n_text {
 		font-size: 3.75vw;
 		font-family: OpenSans;
@@ -359,7 +363,7 @@
 		background: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url(../images/be-active.jpg);
+		background-image: url(../images/be-active_640.jpg);
 	}
 
 	.block_number {
@@ -410,7 +414,7 @@
 		background: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url(../images/find-contact.jpg);
+		background-image: url(../images/find-contact_640.jpg);
 	}
 
 	.find_contact_content {
@@ -448,7 +452,7 @@
 		background: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url(../images/work-it.jpg);
+		background-image: url(../images/work-it_640.jpg);
 	}
 
 	.work_it_content {
