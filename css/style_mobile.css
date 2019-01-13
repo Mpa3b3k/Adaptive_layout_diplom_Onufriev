@@ -395,11 +395,12 @@ body{
 		background-color: #5e42b0;
 		margin-bottom: -120px;
 		margin-left: 6.25vw;
-		/*margin-top: 88.125vw;*/
+		margin-top: -120px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		z-index: 3;
 	}
 
 	.be_active_content {
