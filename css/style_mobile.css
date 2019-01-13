@@ -23,6 +23,11 @@ body{
 		font-family: OpenSans;
 	}
 
+picture {
+	position: relative;
+	z-index: -1;
+	}
+
 @media (max-width: 640px) {
 
 	.top {
@@ -393,14 +398,14 @@ body{
 		height: 21.875vw;
 		width: 21.875vw;
 		background-color: #5e42b0;
-		margin-bottom: -120px;
+		/*margin-bottom: -120px;*/
 		margin-left: 6.25vw;
-		margin-top: -120px;
+		margin-top: -20vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		z-index: 3;
+		z-index: 100;
 	}
 
 	.be_active_content {
