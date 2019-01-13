@@ -29,7 +29,11 @@ picture {
 	}
 
 @media (max-width: 640px) {
-
+	
+	/*.sportsmen {
+		display: none;
+	}
+*/
 	.top {
 		width: 100%;
 		height: 178.125vw;
@@ -134,8 +138,8 @@ picture {
 		align-items: center;
 	}
 
-	.top_athlets {
-		background-color: #fafafa;
+	/*.top_athlets {
+		background-color: #ffffff;
 		height: 113.75vw;
 		width: 100%;
 		display: flex;
@@ -143,9 +147,15 @@ picture {
 		align-items: center;
 		position: relative;
 		z-index: 9;
+	}*/
+
+	.sportsmen {
+		/*background-color: #ffffff;*/
+		margin-bottom: -6vw;
+		z-index: 3;
 	}
 
-	.top_athlets:before {
+	/*.top_athlets:before {
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -154,7 +164,7 @@ picture {
 		bottom: 18.125vw;
 		left: 0;
 		background: #ffffff;
-	}
+	}*/
 
 	.big_title {
 		font-size: 11.25vw;
@@ -221,6 +231,7 @@ picture {
 		align-items: center;
 		flex-direction: column;
 		justify-content: center;
+		/*z-index: 3;*/
 	}
 
 	.betw_info {
@@ -297,25 +308,25 @@ picture {
 	}
 
 	.players {
-		height: 292.5vw;
+		/*height: 292.5vw;*/
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.top_players {
+	/*.top_players {
 		height: 103.125vw;
 		width: 100%;
-		background-color: #fafafa;
+		background-color: #ffffff;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		position: relative;
 		z-index: 9;
-	}
+	}*/
 
-	.top_players:before {
+	/*.top_players:before {
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -324,7 +335,7 @@ picture {
 		bottom: 8.125vw;
 		left: 0;
 		background: #ffffff;
-	}
+	}*/
 
 	.basketballer {
 		background-image: url(../images/basketballer_302.png);

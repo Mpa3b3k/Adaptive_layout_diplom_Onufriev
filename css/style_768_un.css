@@ -125,7 +125,7 @@
 		z-index: 9;
 	}
 
-	.top_athlets:before {
+	/*.top_athlets:before {
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -135,7 +135,7 @@
 		left: 0;
 		background: #ffffff;
 	}
-
+*/
 	.big_title {
 		font-size: 60px;
 		color: #e7e7e7;
@@ -290,7 +290,7 @@
 		z-index: 9;
 	}
 
-	.top_players:before {
+	/*.top_players:before {
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -299,7 +299,7 @@
 		bottom: 26px;
 		left: 0;
 		background: #ffffff;
-	}
+	}*/
 
 	.basketballer {
 		background-image: url(../images/basketballer_302.png);
