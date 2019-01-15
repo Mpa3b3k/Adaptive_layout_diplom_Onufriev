@@ -1,0 +1,223 @@
+@media (min-width: 961px) {
+	
+	.top {
+		height: 960px;
+		background-image: url(../images/football_1920.jpg);
+	}
+
+	.surface_logo_text{
+		width: 189px;
+	}
+
+	.mid_text {
+		width: 1530px;
+	}
+
+	.BE_RECRUITED {
+		font-size: 66px;
+		width: 666px;
+	}
+
+	.PLAY_COLLEGE_SPORTS {
+		font-size: 66px;
+		width: 1084px;
+	}
+
+	.apple_store, .google_play {
+		height: ;
+		width: ;
+		border-radius: ;
+		margin: ;
+	}
+
+	.apple_svg, .google_play_svg {
+		height: 7.5vw;
+		margin-right: 1.25vw;
+	}
+
+	.bottom_links {
+		flex-direction: column;
+	}
+
+	.app_store_content {
+		margin: calc(50% - 17.5vw);
+	}
+
+	.top_text {
+		font-size: 2.5vw;
+	}
+
+	.bot_text {
+		font-size: 2.5vw;
+	}
+
+	.sportsmen {
+		margin-bottom: -6vw;
+		height: 81.25vw;
+	}
+
+	.big_title {
+		font-size: 11.25vw;
+		margin-top: 6.25vw;
+		margin-bottom: 6.25vw;
+		margin-left: 6.25vw;
+	}
+
+	.small_title {
+		font-size: 6.25vw;
+		margin-left: 3.125vw;
+	}
+
+	.small_title_b {
+		font-size: 6.25vw;
+		margin-left: 6.25vw;
+	}
+
+	.text_black {
+		font-size: 5.625vw;
+		width: 87.5vw;
+	}
+
+	.text_black_b {
+		font-size: 5.625vw;
+		width: 87.5vw;
+	}
+
+	.text_white {
+		font-size: 5.625vw;
+		width: 87.5vw;
+	}
+
+	.connection {
+		height: 48.125vw;
+		margin-top: 20px;
+	}
+
+	.betw_info {
+		width: 87.5vw;
+	}
+
+	.number {
+		max-width: 5vw;
+	}
+
+	.number_b {
+		max-width: 5vw;
+	}
+
+	.n_text {
+		font-size: 3.75vw;
+	}
+
+	.n_text_ph {
+		font-size: 3.75vw;
+	}
+
+	.n_text_w {
+		font-size: 3.75vw;
+	}
+
+	.n_underline {
+		height: 1.25vw;
+		border-radius: 3.125vw;
+	}
+
+	.n_underline_w {
+		height: 1.25vw;
+		border-radius: 3.125vw;
+	}
+
+	.n_underline_ph {
+		height: 1.25vw;
+		border-radius: 3.125vw;
+	}
+
+	.collaboration {
+		height: 81.25vw;
+	}
+
+	.growth {
+		height: 71.875vw;
+	}
+
+	.p_connection {
+		height: 70vw;
+		width: 100%;
+	}
+
+	.p_collaboration {
+		height: 60vw;
+		width: 100%;
+	}
+
+	.p_growth {
+		height: 59.375vw;
+		width: 100%;
+	}
+
+	.be_active {
+		height: 176.25vw;
+	}
+
+	.top_img_be_active {
+		height: 110vw;
+	}
+
+	.block_number {
+		height: 21.875vw;
+		width: 21.875vw;
+		margin-left: 6.25vw;
+		margin-top: -20vw;
+	}
+
+	.be_active_content {
+		height: 62.5vw;
+	}
+
+	.find_contact {
+		height: 171.25vw;
+	}
+
+	.top_img_find_contact {
+		height: 110vw;
+	}
+
+	.find_contact_content {
+		height: 57.5vw;
+	}
+
+	.work_it {
+		height: 180vw;
+	}
+
+	.top_img_work_it {
+		height: 110vw;
+	}
+
+	.work_it_content {
+		height: 66.25vw;
+	}
+
+	footer {
+		height: 177.5vw;
+		background-image: url(../images/game_767.jpg);
+	}
+
+	.emblem {
+		width: 22.5vw;
+		height: 23.125vw;
+		border-radius: 6.25vw;
+	}
+
+	.footer_top_text {
+		font-size: 7.5vw;
+	}
+
+	.footer_bot_text {
+		font-size: 3.125vw;
+	}
+
+	.svg_emblem {
+		width: 18.125vw;
+	}
+}

@@ -1,0 +1,229 @@
+@media (min-width: 641px) and (max-width: 960px) {
+
+	.top {
+		height: 125vw;
+		background-image: url(../images/football_1280.jpg);
+	}
+
+	.surface_logo_text{
+		width: 26.5625vw;
+		height: 7.03125vw;
+	}
+
+	.BE_RECRUITED {
+		font-size: 6.25vw;
+		width: 56.25vw;
+	}
+
+	.PLAY_COLLEGE_SPORTS {
+		font-size: 6.25vw;
+		color: #ffffff;
+		max-width: 46.875vw;
+	}
+
+	.bottom_links {
+		width: 85.15625vw;
+	}
+
+	.apple_store, .google_play {
+		height: 10.15625vw;
+		width: 40.625vw;
+		border-radius: 13.28125vw;
+		margin: 0.78125vw;
+	}
+
+	.app_store_content {
+		width: 100%;
+	}
+
+	.apple_svg, .google_play_svg {
+		height: 6.25vw;
+		width: 6.25vw;
+		margin-right: 3.90625vw;
+	}
+
+	.top_text {
+		font-size: 1.5625vw;
+	}
+
+	.bot_text {
+		font-size: 1.5625vw;
+	}
+
+	picture.sportsmen {
+		/*width: 52.34375vw;*/
+		/*width: 50vw;*/
+		height: 100%;
+		position: absolute;
+		z-index: 3;
+		margin-top: 12.5vw;
+	}
+
+	.sportsmen:nth-child(odd) {
+		left: 67.96875vw;
+	}
+
+	.sportsmen:nth-child(even) {
+		/*right: 67.96875vw;*/
+		right: 55vw;
+	}
+
+	h2.big_title {
+		font-size: 7.8125vw;
+		align-self: flex-end;
+		width: 61.71875vw;
+		margin-bottom: 2.34375vw;
+		margin-left: 2.34375vw;
+	}
+
+	h2.big_title:nth-child(even){
+		align-self: flex-start;
+		width: ;
+	}
+
+	.small_title {
+		font-size: 3.125vw;
+		margin-left: 1.5625vw;
+	}
+
+	.small_title_b {
+		font-size: 7.8125vw;
+		align-self: flex-start;
+		margin-left: 3.90625vw;
+	}
+
+	.text_black {
+		font-size: 1.5625vw;
+		width: 61.71875vw;
+		text-align: left;
+	}
+
+	.text_black_b {
+		font-size: 2.34375vw;
+		margin-bottom: 5.46875vw;
+		margin-left: 3.90625vw;
+	}
+
+	.text_white {
+		font-size: 1.5625vw;
+		width: 61.71875vw;
+	}
+
+	.connection {
+		height: 20.3125vw;
+		align-items: flex-end;
+	}
+
+	.betw_info {
+		width: 61.71875vw;
+	}
+
+	.number {
+		max-width: 3.125vw;
+		height: 3.90625vw;
+	}
+
+	.n_text {
+		font-size: 1.5625vw;
+	}
+
+	.n_text_ph {
+		font-size: 1.5625vw;
+	}
+
+	.n_underline {
+		height: 0.78125vw;
+		border-radius: 1.5625vw;
+	}
+
+	.n_underline_w {
+		height: 0.78125vw;
+		border-radius: 1.5625vw; 
+	}
+	
+	/*Блок номера из квадрата be_active, find_contact и work_it*/
+	
+	.number_b {
+		max-width: 3.90625vw;
+	}
+
+	.n_text_w {
+		font-size: 2.34375vw;
+	}
+
+	.n_underline_ph {
+		height: 0.78125vw;
+		border-radius: 1.5625vw;
+	}
+
+	.collaboration {
+		height: 30.46875vw;
+		align-items: flex-end;
+	}
+
+	.growth {
+		height: 23.4375vw;
+		align-items: flex-end;
+	}
+	
+	.top_players {
+		height: 42.96875vw;
+	}
+
+	.p_connection {
+		height: 28.90625vw;
+		align-items: flex-start;
+	}
+
+	.p_collaboration {
+		height: 23.4375vw;
+		align-items: flex-start;
+	}
+
+	.p_growth {
+		height: 23.4375vw;
+		align-items: flex-start;
+	}
+
+	.block_number {
+		height: 14.84375vw;
+		width: 14.84375vw;
+		margin-top: -13.28125vw;
+		margin-left: 3.90625vw;
+	}
+
+	.be_active_content {
+		align-items: flex-start;	
+	}
+
+	.find_contact_content {
+		align-items: flex-start;
+	}
+
+	.work_it_content {
+		align-items: flex-start;
+	}
+
+	footer {
+		height: 125vw;
+		background-image: url(../images/game_1280.jpg);
+	}
+
+	.emblem {
+		width: 17.1875vw;
+		height: 17.96875vw;
+		border-radius: 3.125vw;
+	}
+
+	.footer_top_text {
+		font-size: 7.8125vw;
+	}
+
+	.footer_bot_text {
+		font-size: 3.90625vw;
+	}
+
+	.svg_emblem {
+		width: 11.71875vw;
+	}
+}
