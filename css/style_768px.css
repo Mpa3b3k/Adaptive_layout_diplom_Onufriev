@@ -59,13 +59,14 @@
 		margin-top: 12.5vw;
 	}
 
-	.sportsmen:nth-child(odd) {
-		left: 67.96875vw;
-	}
-
-	.sportsmen:nth-child(even) {
+	.athlets .sportsmen {
 		/*right: 67.96875vw;*/
 		right: 55vw;
+	}
+
+	.players .sportsmen {
+		/*right: 67.96875vw;*/
+		right: 0px;
 	}
 
 	h2.big_title {

@@ -10,17 +10,19 @@
 	}
 
 	.mid_text {
-		width: 1530px;
+		width: 1000px;
 	}
 
 	.BE_RECRUITED {
 		font-size: 66px;
 		width: 666px;
+		align-self: flex-start;
 	}
 
 	.PLAY_COLLEGE_SPORTS {
 		font-size: 66px;
-		width: 1084px;
+		align-self: flex-end;
+		/*width: 1084px;*/
 	}
 
 	.apple_store, .google_play {
