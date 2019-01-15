@@ -67,6 +67,7 @@
 	.players .sportsmen {
 		/*right: 67.96875vw;*/
 		right: 0px;
+		position: absolute;
 	}
 
 	h2.big_title {
