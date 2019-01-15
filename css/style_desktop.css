@@ -1,225 +1,287 @@
 @media (min-width: 961px) {
 	
 	.top {
-		height: 960px;
+		max-width: 100vw;
+		height: 50vw;
 		background-image: url(../images/football_1920.jpg);
 	}
 
 	.surface_logo_text{
-		width: 189px;
+		width: 10vw;
 	}
 
 	.mid_text {
-		width: 1000px;
+		width: 52.1875vw;
 	}
 
 	.BE_RECRUITED {
-		font-size: 66px;
-		width: 666px;
+		font-size: 3.4375vw;
+		width: 34.6875vw;
 		align-self: flex-start;
 	}
 
 	.PLAY_COLLEGE_SPORTS {
-		font-size: 66px;
+		font-size: 3.4375vw;
 		align-self: flex-end;
-		/*width: 1084px;*/
 	}
 
 	.apple_store, .google_play {
-		height: ;
-		width: ;
-		border-radius: ;
-		margin: ;
+		height: 4.0625vw;
+		width: 16.25vw;
+		border-radius: 4vw;
+		margin: 1.5625vw;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.apple_svg, .google_play_svg {
-		height: 7.5vw;
-		margin-right: 1.25vw;
+		height: 2.5vw;
+		margin-right: 1.5625vw;
 	}
 
 	.bottom_links {
-		flex-direction: column;
-	}
-
-	.app_store_content {
-		margin: calc(50% - 17.5vw);
+		flex-wrap: nowrap;
+		flex-direction: row;
 	}
 
 	.top_text {
-		font-size: 2.5vw;
+		font-size: 0.9375vw;
 	}
 
 	.bot_text {
-		font-size: 2.5vw;
+		font-size: 0.9375vw;
 	}
 
-	.sportsmen {
-		margin-bottom: -6vw;
-		height: 81.25vw;
+	.athlets .sportsmen {
+		position: absolute;
+		left: 10vw;
+		height: 47.1875vw;
 	}
 
-	.big_title {
-		font-size: 11.25vw;
-		margin-top: 6.25vw;
-		margin-bottom: 6.25vw;
-		margin-left: 6.25vw;
+	.players .sportsmen {
+		position: absolute;
+		right: 5vw;
+		width: 51.40625vw;
+	}
+
+	.athlets .big_title {
+		font-size: 3.125vw;
+		margin-top: ;
+		width: 43.3475vw;
+		align-self: flex-end;
+	}
+
+	.players .big_title {
+		font-size: 3.125vw;
+		margin-left: 10vw;
 	}
 
 	.small_title {
-		font-size: 6.25vw;
-		margin-left: 3.125vw;
+		font-size: 1.5625vw;
+		margin-left: 0.625vw;
 	}
 
 	.small_title_b {
-		font-size: 6.25vw;
-		margin-left: 6.25vw;
+		font-size: 2.8125vw;
 	}
 
-	.text_black {
-		font-size: 5.625vw;
-		width: 87.5vw;
+	.athlets .text_black {
+		font-size: 0.9375vw;
+		width: 37.1875vw;
+		margin-right: 6.0416666666vw;
+	}
+
+	.players .text_black {
+		font-size: 0.9375vw;
+		width: 37.1875vw;
+		margin-left: 10vw;
+	}
+
+	.players .betw_info {
+		margin-left: 10vw;
 	}
 
 	.text_black_b {
-		font-size: 5.625vw;
-		width: 87.5vw;
+		font-size: 0.9375vw;
+		width: 33.125vw;
+		align-self: flex-start;
 	}
 
 	.text_white {
-		font-size: 5.625vw;
-		width: 87.5vw;
+		font-size: 0.9375vw;
+		width: 43.3475vw;
+	}
+
+	.players .text_white {
+		font-size: 0.9375vw;
+		width: 43.3475vw;
+		margin-left: 10vw;
 	}
 
 	.connection {
-		height: 48.125vw;
-		margin-top: 20px;
+		height: 12.5vw;
+		background-color: #ffffff;
+		align-items: flex-end;
 	}
 
 	.betw_info {
-		width: 87.5vw;
+		width: 43.3475vw;
 	}
 
 	.number {
-		max-width: 5vw;
-	}
-
-	.number_b {
-		max-width: 5vw;
+		max-width: 1.25vw;
 	}
 
 	.n_text {
-		font-size: 3.75vw;
+		font-size: 0.9375vw;
 	}
 
 	.n_text_ph {
-		font-size: 3.75vw;
+		font-size: 0.9375vw;
 	}
 
 	.n_text_w {
-		font-size: 3.75vw;
+		font-size: 0.9375vw;
 	}
 
 	.n_underline {
-		height: 1.25vw;
-		border-radius: 3.125vw;
+		height: 0.3125vw;
+		border-radius: 1vw;
 	}
 
 	.n_underline_w {
-		height: 1.25vw;
-		border-radius: 3.125vw;
+		height: 0.3125vw;
+		border-radius: 1vw;
 	}
 
 	.n_underline_ph {
-		height: 1.25vw;
-		border-radius: 3.125vw;
+		height: 0.3125vw;
+		border-radius: 1vw;
 	}
 
 	.collaboration {
-		height: 81.25vw;
+		height: 13.125vw;
+		align-items: flex-end;
 	}
 
 	.growth {
-		height: 71.875vw;
+		height: 11.5625vw;
+		align-items: flex-end;
 	}
 
 	.p_connection {
-		height: 70vw;
+		height: 14.0625vw;
 		width: 100%;
+		background-color: #ffffff;
+		align-items: flex-start;
 	}
 
 	.p_collaboration {
-		height: 60vw;
+		height: 11.875vw;
 		width: 100%;
+		align-items: flex-start;
 	}
 
 	.p_growth {
-		height: 59.375vw;
+		height: 10.3125vw;
 		width: 100%;
+		align-items: flex-start;
 	}
 
 	.be_active {
-		height: 176.25vw;
+		display: flex;
+		flex-direction: row;
 	}
 
 	.top_img_be_active {
-		height: 110vw;
+		height: 38.020833333vw;
+		width: 50vw;
+		align-self: flex-start;
 	}
 
 	.block_number {
-		height: 21.875vw;
-		width: 21.875vw;
-		margin-left: 6.25vw;
-		margin-top: -20vw;
+		height: 8.125vw;
+		width: 8.75vw;
+		position: absolute;
+		bottom: 19.0625vw;
+		left: 45.625vw;
+	}
+
+	.top_img_find_contact .block_number {
+		left: -4.375vw;
 	}
 
 	.be_active_content {
-		height: 62.5vw;
+		width: calc(100% - 38.020833333vw);
+		margin-left: 6.875vw;
+		justify-content: center;
+		align-self: center;
 	}
 
 	.find_contact {
-		height: 171.25vw;
+		display: flex;
+		flex-direction: row-reverse;
 	}
 
 	.top_img_find_contact {
-		height: 110vw;
+		height: 38.020833333vw;
+		width: 50vw;
+		align-self: flex-end;
 	}
 
 	.find_contact_content {
-		height: 57.5vw;
+		width: calc(100% - 38.020833333vw);
+		margin-left: 10vw;
+		justify-content: center;
+		align-self: center;
 	}
 
 	.work_it {
-		height: 180vw;
+		display: flex;
+		flex-direction: row;
 	}
 
 	.top_img_work_it {
-		height: 110vw;
+		height: 38.020833333vw;
+		width: 50vw;
+		align-self: flex-start;
 	}
 
 	.work_it_content {
-		height: 66.25vw;
+		width: calc(100% - 38.020833333vw);
+		justify-content: center;
+		align-self: center;
+		margin-left: 6.875vw; 
 	}
 
 	footer {
-		height: 177.5vw;
-		background-image: url(../images/game_767.jpg);
+		max-width: 100vw; 
+		height: 50vw;
+		justify-content: space-around;
+		background-image: url(../images/game_1920.jpg);
 	}
 
 	.emblem {
-		width: 22.5vw;
-		height: 23.125vw;
-		border-radius: 6.25vw;
+		width: 7vw;
+		width: 7vw;
+		border-radius: 1vw;
+		margin-right: 1.5625vw;
 	}
 
 	.footer_top_text {
-		font-size: 7.5vw;
-	}
-
-	.footer_bot_text {
 		font-size: 3.125vw;
 	}
 
+	.footer_bot_text {
+		font-size: 1.25vw;
+	}
+
 	.svg_emblem {
-		width: 18.125vw;
+		width: 5vw;
+	}
+
+	.desktop_block {
+		flex-direction: row;
+		margin-top: 11.875vw;
 	}
 }
