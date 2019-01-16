@@ -3,25 +3,33 @@
 	.top {
 		max-width: 100vw;
 		height: 50vw;
+		justify-content: space-between;
 		background-image: url(../images/football_1920.jpg);
 	}
+
+	.top .surface_logo_text{
+		width: 10vw;
+		margin-top: 2.34375vw;
+	}
+
 
 	.surface_logo_text{
 		width: 10vw;
 	}
 
 	.mid_text {
-		width: 52.1875vw;
+		width: 79.6875vw;
+		margin-top: 2vw;
 	}
 
 	.BE_RECRUITED {
-		font-size: 3.4375vw;
+		font-size: 4.6875vw;
 		width: 34.6875vw;
 		align-self: flex-start;
 	}
 
 	.PLAY_COLLEGE_SPORTS {
-		font-size: 3.4375vw;
+		font-size: 4.6875vw;
 		align-self: flex-end;
 	}
 
@@ -42,6 +50,7 @@
 	.bottom_links {
 		flex-wrap: nowrap;
 		flex-direction: row;
+		margin-bottom: 4vw;
 	}
 
 	.top_text {
