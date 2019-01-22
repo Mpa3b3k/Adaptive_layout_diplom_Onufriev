@@ -2,7 +2,14 @@
 
 	.top {
 		height: 125vw;
+		justify-content: space-between;
 		background-image: url(../images/football_1280.jpg);
+	}
+
+	.top .surface_logo_text{
+		width: 26.5625vw;
+		height: 7.03125vw;
+		margin-top: 5vw;
 	}
 
 	.surface_logo_text{
@@ -10,19 +17,30 @@
 		height: 7.03125vw;
 	}
 
+	.mid_text {
+		/*width: 82.8125vw;*/
+		width: 90vw;
+		margin-bottom: 20vw;
+	}
+
 	.BE_RECRUITED {
-		font-size: 6.25vw;
-		width: 56.25vw;
+		/*font-size: 6.25vw;*/
+		font-size: 8.3333333vw;
+		/*width: 56.25vw;*/
+		width: 62.5vw;
 	}
 
 	.PLAY_COLLEGE_SPORTS {
-		font-size: 6.25vw;
+		/*font-size: 6.25vw;*/
+		font-size: 8.3333333vw;
 		color: #ffffff;
-		max-width: 46.875vw;
+		/*max-width: 46.875vw;*/
+		max-width: 63.28125vw;
 	}
 
 	.bottom_links {
 		width: 85.15625vw;
+		margin-bottom: 11vw;
 	}
 
 	.apple_store, .google_play {
@@ -92,44 +110,50 @@
 	}
 
 	h2.big_title {
-		font-size: 7.8125vw;
+		/*font-size: 7.8125vw;*/
+		font-size: 10.41666666vw;
 		align-self: flex-end;
 		width: 61.71875vw;
 		margin-bottom: 2.34375vw;
 		margin-left: 2.34375vw;
 	}
 
-	h2.big_title:nth-child(even){
+	.players .big_title {
 		align-self: flex-start;
 		width: ;
 	}
 
 	.small_title {
-		font-size: 3.125vw;
+		/*font-size: 3.125vw;*/
+		font-size: 4.1666666vw;
 		margin-left: 1.5625vw;
 	}
 
 	.small_title_b {
-		font-size: 7.8125vw;
+		/*font-size: 7.8125vw;*/
+		font-size: 10.416666666vw;
 		align-self: flex-start;
 		margin-left: 3.90625vw;
 	}
 
 	.text_black {
-		font-size: 1.5625vw;
+		/*font-size: 1.5625vw;*/
+		font-size: 2.08333333vw;
 		width: 61.71875vw;
 		text-align: left;
 	}
 
 	.text_black_b {
-		font-size: 2.34375vw;
+		/*font-size: 2.34375vw;*/
+		font-size: 3.125vw;
 		margin-bottom: 5.46875vw;
 		margin-left: 3.90625vw;
 	}
 
 	.text_white {
-		font-size: 1.5625vw;
+		/*font-size: 1.5625vw;*/
 		width: 61.71875vw;
+		font-size: 2.08333333vw;
 	}
 
 	.connection {
@@ -147,7 +171,8 @@
 	}
 
 	.n_text {
-		font-size: 1.5625vw;
+		/*font-size: 1.5625vw;*/
+		font-size: 2.34375vw;
 	}
 
 	.n_text_ph {
@@ -229,6 +254,7 @@
 
 	footer {
 		height: 125vw;
+		justify-content: space-between;
 		background-image: url(../images/game_1280.jpg);
 	}
 
@@ -236,24 +262,43 @@
 		width: 17.1875vw;
 		height: 17.96875vw;
 		border-radius: 3.125vw;
-		margin-bottom: 10.9375vw;
+		/*margin-bottom: 10.9375vw;*/
+		/*margin-top: 7.5vw;*/
 	}
 
 	.footer_top_text {
-		font-size: 7.8125vw;
+		/*font-size: 7.8125vw;*/
+		font-size: 10.416666666vw;
 	}
 
 	.footer_bot_text {
-		font-size: 3.90625vw;
+		/*font-size: 3.90625vw;*/
+		font-size: 4.6875vw;
+
+	}
+
+	.b_center_text {
+		margin-top: 7vw;
 	}
 
 	.svg_emblem {
 		width: 11.71875vw;
 	}
 
+	footer .bottom_links {
+		margin-top: 30vw;
+	}
+
 	.desktop_block {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-top: 17vw;
+	}
+
+	footer .surface_logo_text{
+		width: 26.5625vw;
+		height: 7.03125vw;
+		margin-bottom: 3vw;
 	}
 }

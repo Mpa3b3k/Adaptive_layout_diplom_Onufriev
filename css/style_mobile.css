@@ -451,7 +451,8 @@ footer::after {
 	}
 
 	.big_title {
-		font-size: 11.25vw;
+		/*font-size: 11.25vw;*/
+		font-size: 15.625vw;
 		margin-top: 6.25vw;
 		margin-bottom: 6.25vw;
 		margin-left: 6.25vw;
@@ -463,7 +464,8 @@ footer::after {
 	}
 
 	.small_title_b {
-		font-size: 6.25vw;
+		/*font-size: 6.25vw;*/
+		font-size: 8.75vw;
 		margin-left: 6.25vw;
 	}
 
@@ -605,11 +607,13 @@ footer::after {
 	}
 
 	.footer_top_text {
-		font-size: 7.5vw;
+		/*font-size: 7.5vw;*/
+		font-size: 10vw;
 	}
 
 	.footer_bot_text {
-		font-size: 3.125vw;
+		/*font-size: 3.125vw;*/
+		font-size: 4.375vw;
 	}
 
 	.svg_emblem {

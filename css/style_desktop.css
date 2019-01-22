@@ -12,14 +12,13 @@
 		margin-top: 2.34375vw;
 	}
 
-
 	.surface_logo_text{
 		width: 10vw;
 	}
 
 	.mid_text {
 		width: 79.6875vw;
-		margin-top: 2vw;
+		margin-top: 6vw;
 	}
 
 	.BE_RECRUITED {
@@ -65,6 +64,7 @@
 		position: absolute;
 		left: 10vw;
 		height: 47.1875vw;
+		margin-top: 0.75vw;
 	}
 
 	.players .sportsmen {
@@ -74,34 +74,44 @@
 	}
 
 	.athlets .big_title {
-		font-size: 3.125vw;
+		/*font-size: 3.125vw;*/
+		font-size: 4.166666vw;
 		margin-top: ;
-		width: 43.3475vw;
+		width: 47.5vw;
 		align-self: flex-end;
+		margin-bottom: 0;
 	}
 
 	.players .big_title {
-		font-size: 3.125vw;
+		/*font-size: 3.125vw;*/
+		font-size: 4.166666vw;
 		margin-left: 10vw;
+		margin-bottom: 0;
 	}
 
 	.small_title {
-		font-size: 1.5625vw;
+		font-size: 1.875vw;
 		margin-left: 0.625vw;
 	}
 
 	.small_title_b {
-		font-size: 2.8125vw;
+		/*font-size: 2.8125vw;*/
+		font-size: 4.166666vw;
+		margin-bottom: 2vw;
 	}
 
 	.athlets .text_black {
-		font-size: 0.9375vw;
+		/*font-size: 0.9375vw;*/
+		font-size: 1.04166666vw;
+		/*width: 37.1875vw;*/
+		/*width: 47.5vw;*/
 		width: 37.1875vw;
-		margin-right: 6.0416666666vw;
+		margin-right: 10.3125vw;
 	}
 
 	.players .text_black {
-		font-size: 0.9375vw;
+		/*font-size: 0.9375vw;*/
+		font-size: 1.04166666vw;
 		width: 37.1875vw;
 		margin-left: 10vw;
 	}
@@ -111,21 +121,35 @@
 	}
 
 	.text_black_b {
-		font-size: 0.9375vw;
+		/*font-size: 0.9375vw;*/
+		font-size: 1.25vw;
 		width: 33.125vw;
 		align-self: flex-start;
 	}
 
-	.text_white {
-		font-size: 0.9375vw;
-		width: 43.3475vw;
+	.athlets .text_white {
+		/*font-size: 0.9375vw;*/
+		font-size: 1.04166666vw;
+		/*width: 43.3475vw;*/
+		/*width: 47.5vw;*/
+		width: 37.1875vw;
+		margin-right: 10.3125vw;
 	}
 
 	.players .text_white {
+		/*font-size: 0.9375vw;*/
+		font-size: 1.04166666vw;
+		/*width: 43.3475vw;*/
+		/*width: 47.5vw;*/
+		width: 37.1875vw;
+		margin-left: 10vw;
+	}
+
+	/*.players .text_white {
 		font-size: 0.9375vw;
 		width: 43.3475vw;
 		margin-left: 10vw;
-	}
+	}*/
 
 	.connection {
 		height: 12.5vw;
@@ -134,7 +158,8 @@
 	}
 
 	.betw_info {
-		width: 43.3475vw;
+		/*width: 43.3475vw;*/
+		width: 47.5vw;
 	}
 
 	.number {
@@ -150,7 +175,7 @@
 	}
 
 	.n_text_w {
-		font-size: 0.9375vw;
+		font-size: 1.25vw;
 	}
 
 	.n_underline {
@@ -271,18 +296,21 @@
 	}
 
 	.emblem {
-		width: 7vw;
-		width: 7vw;
-		border-radius: 1vw;
+		width: 6.7708333333vw;
+		border-radius: 2vw;
 		margin-right: 1.5625vw;
 	}
 
 	.footer_top_text {
-		font-size: 3.125vw;
+		/*font-size: 3.125vw;*/
+		font-size: 4.1666666vw;
+		align-self: flex-start;
 	}
 
 	.footer_bot_text {
-		font-size: 1.25vw;
+		/*font-size: 1.25vw;*/
+		font-size: 1.5625vw;
+		align-self: flex-start;
 	}
 
 	.svg_emblem {
@@ -291,6 +319,13 @@
 
 	.desktop_block {
 		flex-direction: row;
-		margin-top: 11.875vw;
+		/*margin-top: 11.875vw;*/
+		margin-top: 9vw;
+		width: 46.5625vw;
+	}
+
+	.b_center_text {
+		width: 80%;
+		align-self: flex-end;
 	}
 }
