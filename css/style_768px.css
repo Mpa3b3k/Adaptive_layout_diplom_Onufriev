@@ -121,6 +121,8 @@
 	.players .big_title {
 		align-self: flex-start;
 		width: ;
+		font-size: 10.41666666vw;
+		margin-top: 6vw;
 	}
 
 	.small_title {
@@ -136,15 +138,26 @@
 		margin-left: 3.90625vw;
 	}
 
+	.find_contact .small_title_b {
+		margin-top: -5vw;
+	}
+
+	.work_it .small_title_b {
+		margin-top: -5vw;
+	}
+
 	.text_black {
 		/*font-size: 1.5625vw;*/
 		font-size: 2.08333333vw;
-		width: 61.71875vw;
+		/*width: 61.71875vw;*/
+		width: 57.8125vw;
+		margin-right: 3.90625vw;
 		text-align: left;
 	}
 
 	.text_black_b {
 		/*font-size: 2.34375vw;*/
+		width: 85.9375vw;
 		font-size: 3.125vw;
 		margin-bottom: 5.46875vw;
 		margin-left: 3.90625vw;
@@ -152,12 +165,14 @@
 
 	.text_white {
 		/*font-size: 1.5625vw;*/
-		width: 61.71875vw;
+		/*width: 61.71875vw;*/
 		font-size: 2.08333333vw;
+		width: 57.8125vw;
+		margin-right: 3.90625vw;
 	}
 
 	.connection {
-		height: 20.3125vw;
+		/*height: 20.3125vw;*/
 		align-items: flex-end;
 	}
 
@@ -205,12 +220,14 @@
 	}
 
 	.collaboration {
-		height: 30.46875vw;
+		/*height: 30.46875vw;*/
+		height: 36vw;
 		align-items: flex-end;
 	}
 
 	.growth {
-		height: 23.4375vw;
+		/*height: 23.4375vw;*/
+		height: 22vw;
 		align-items: flex-end;
 	}
 	
@@ -224,7 +241,8 @@
 	}
 
 	.p_collaboration {
-		height: 23.4375vw;
+		/*height: 23.4375vw;*/
+		height: 20vw;
 		align-items: flex-start;
 	}
 
@@ -242,14 +260,18 @@
 
 	.be_active_content {
 		align-items: flex-start;	
+		height: 43.75vw;
 	}
 
 	.find_contact_content {
 		align-items: flex-start;
+		height: 43.75vw;
 	}
 
 	.work_it_content {
 		align-items: flex-start;
+		/*height: 48.4375vw;*/
+		height: 44vw;
 	}
 
 	footer {

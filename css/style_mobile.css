@@ -182,16 +182,16 @@ picture.sportsmen {
 }
 
 .n_text {
-	font-family: OpenSans;
+	font-family: OpenSans-Bold;
 }
 
 .n_text_ph {
-	font-family: OpenSans;
+	font-family: OpenSans-Bold;
 	color: #5e42b0;
 }
 
 .n_text_w {
-	font-family: OpenSans;
+	font-family: OpenSans-Bold;
 	color: #f5f6f7;
 }
 
@@ -392,15 +392,22 @@ footer::after {
 	
 	.top {
 		height: 178.125vw;
+		justify-content: space-between;
 		background-image: url(../images/football_767.jpg);
 	}
 
-	.surface_logo_text{
+	.top .surface_logo_text{
+		width: 40.625vw;
+		margin-top: 10vw;
+	}
+
+	footer .surface_logo_text{
 		width: 40.625vw;
 	}
 	
 	.mid_text {
 		width: 87.5vw;
+		margin-top: 25vw;
 	}
 
 	.BE_RECRUITED {
@@ -410,6 +417,7 @@ footer::after {
 	.PLAY_COLLEGE_SPORTS {
 		font-size: 8.75vw;
 		width: 66.875vw;
+		margin-top: 5vw;
 	}
 
 	.apple_store, .google_play {
@@ -424,7 +432,12 @@ footer::after {
 		margin-right: 1.25vw;
 	}
 
-	.bottom_links {
+	.top .bottom_links {
+		flex-direction: column;
+		margin-bottom: 25vw;
+	}
+
+	footer .bottom_links {
 		flex-direction: column;
 	}
 
@@ -441,25 +454,29 @@ footer::after {
 	}
 
 	.athlets .sportsmen {
-		margin-bottom: -6vw;
+		/*margin-bottom: -6vw;*/
+		margin-bottom: -15vw;
 		height: 88.125vw;
 	}
 
 	.players .sportsmen {
-		margin-bottom: -6vw;
+		/*margin-bottom: -6vw;*/
+		margin-bottom: -10vw;
 		height: 77.5vw;
 	}
 
 	.big_title {
 		/*font-size: 11.25vw;*/
 		font-size: 15.625vw;
-		margin-top: 6.25vw;
+		/*margin-top: 6.25vw;*/
+		margin-top: 1vw;
 		margin-bottom: 6.25vw;
 		margin-left: 6.25vw;
 	}
 
 	.small_title {
-		font-size: 6.25vw;
+		/*font-size: 6.25vw;*/
+		font-size: 7.1875vw;
 		margin-left: 3.125vw;
 	}
 
@@ -470,7 +487,8 @@ footer::after {
 	}
 
 	.text_black {
-		font-size: 5.625vw;
+		/*font-size: 5.625vw;*/
+		font-size: 4.6875vw;
 		width: 87.5vw;
 	}
 
@@ -480,7 +498,8 @@ footer::after {
 	}
 
 	.text_white {
-		font-size: 5.625vw;
+		/*font-size: 5.625vw;*/
+		font-size: 4.6875vw;
 		width: 87.5vw;
 	}
 
@@ -510,7 +529,8 @@ footer::after {
 	}
 
 	.n_text_w {
-		font-size: 3.75vw;
+		/*font-size: 3.75vw;*/
+		font-size: 4.375vw;
 	}
 
 	.n_underline {
